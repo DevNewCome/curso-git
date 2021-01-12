@@ -7,7 +7,8 @@ namespace Banco
         static void Main(string[] args)
         {
             ContaBancaria conta;
-
+            Console.WriteLine("=======BEM VINDO AO SEU BANCO========");
+            Console.WriteLine();
             Console.WriteLine("Entre com o numero da conta");
             int numeroconta = int.Parse(Console.ReadLine());
             Console.WriteLine("Entre com o titular da conta");
